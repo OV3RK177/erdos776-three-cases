@@ -1,0 +1,50 @@
+'Kairos.n0_5' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Erdos776.Uniform.lowerWindowFiniteBaseCheck_verified._native.native_decide.ax_1_1,
+ Erdos776.Uniform.smallThresholdFiniteCheck_verified._native.native_decide.ax_1_1,
+ Erdos776.Uniform.smallUniformFiniteCheck_verified._native.native_decide.ax_1_1]
+'Kairos.n0_6' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Erdos776.Uniform.lowerWindowFiniteBaseCheck_verified._native.native_decide.ax_1_1,
+ Erdos776.Uniform.smallThresholdFiniteCheck_verified._native.native_decide.ax_1_1,
+ Erdos776.Uniform.smallUniformFiniteCheck_verified._native.native_decide.ax_1_1]
+'Kairos.n0_11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Erdos776.Uniform.lowerWindowFiniteBaseCheck_verified._native.native_decide.ax_1_1,
+ Erdos776.Uniform.smallThresholdFiniteCheck_verified._native.native_decide.ax_1_1,
+ Erdos776.Uniform.smallUniformFiniteCheck_verified._native.native_decide.ax_1_1]
+'Kairos.g_14_5' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Kairos.w14_admissible._native.native_decide.ax_1_1,
+ Kairos.w14_admissible._native.native_decide.ax_1_2,
+ Kairos.w14_levels._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowFiniteBaseCheck_verified._native.native_decide.ax_1_1,
+ Erdos776.Uniform.smallThresholdFiniteCheck_verified._native.native_decide.ax_1_1,
+ Erdos776.Uniform.smallUniformFiniteCheck_verified._native.native_decide.ax_1_1]
+'Kairos.g_16_6' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Kairos.w16_admissible._native.native_decide.ax_1_1,
+ Kairos.w16_admissible._native.native_decide.ax_1_2,
+ Kairos.w16_levels._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowFiniteBaseCheck_verified._native.native_decide.ax_1_1,
+ Erdos776.Uniform.smallThresholdFiniteCheck_verified._native.native_decide.ax_1_1,
+ Erdos776.Uniform.smallUniformFiniteCheck_verified._native.native_decide.ax_1_1]
+'Kairos.g_27_11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Kairos.w27_admissible._native.native_decide.ax_1_1,
+ Kairos.w27_admissible._native.native_decide.ax_1_2,
+ Kairos.w27_levels._native.native_decide.ax_1_1,
+ Erdos776.Uniform.lowerWindowFiniteBaseCheck_verified._native.native_decide.ax_1_1,
+ Erdos776.Uniform.smallThresholdFiniteCheck_verified._native.native_decide.ax_1_1,
+ Erdos776.Uniform.smallUniformFiniteCheck_verified._native.native_decide.ax_1_1]
+
+real	0m3.442s
+user	0m3.866s
+sys	0m0.456s
+exit=0

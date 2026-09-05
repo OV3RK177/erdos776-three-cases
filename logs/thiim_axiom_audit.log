@@ -1,0 +1,22 @@
+'Erdos776.L4.l4_multiplicity_profile_infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos776.Uniform.isErdosThreshold_of_ge_378' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos776.Uniform.lowerWindowFiniteBaseCheck_verified' depends on axioms: [Erdos776.Uniform.lowerWindowFiniteBaseCheck_verified._native.native_decide.ax_1_1]
+'Erdos776.Uniform.smallUniformFiniteCheck_verified' depends on axioms: [Erdos776.Uniform.smallUniformFiniteCheck_verified._native.native_decide.ax_1_1]
+'Erdos776.Uniform.smallThresholdFiniteCheck_verified' depends on axioms: [Erdos776.Uniform.smallThresholdFiniteCheck_verified._native.native_decide.ax_1_1]
+'Erdos776.Uniform.isErdosThreshold_of_ge_4' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Erdos776.Uniform.lowerWindowFiniteBaseCheck_verified._native.native_decide.ax_1_1,
+ Erdos776.Uniform.smallThresholdFiniteCheck_verified._native.native_decide.ax_1_1,
+ Erdos776.Uniform.smallUniformFiniteCheck_verified._native.native_decide.ax_1_1]
+'Erdos776.Uniform.erdos776_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Erdos776.Uniform.lowerWindowFiniteBaseCheck_verified._native.native_decide.ax_1_1,
+ Erdos776.Uniform.smallThresholdFiniteCheck_verified._native.native_decide.ax_1_1,
+ Erdos776.Uniform.smallUniformFiniteCheck_verified._native.native_decide.ax_1_1]
+
+real	0m1.753s
+user	0m1.238s
+sys	0m0.546s
+exit=0
