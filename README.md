@@ -36,7 +36,7 @@ r = 2, 3 cases to He and Tang.
 | `lean/KairosCases.lean` | n₀(5)=14, n₀(6)=16, n₀(11)=27 in the published formulation, plus g(14,5)=10, g(16,6)=12, g(27,11)=23 | compiles against Thiim's package at the tag, 3.4 s, no `sorry`; `#print axioms` in `logs/` |
 | `logs/thiim_package_build.log`, `logs/thiim_axiom_audit.log` | Our build of mthiim/erdos_776 @ v0.4.1-proof-claim, Lean 4.30.0 + Mathlib v4.30.0 | exit 0; audit allowlist reproduced |
 | `VERIFICATION_NOTES.md` | Working notes, including the priority finding | — |
-| `PROVENANCE.md`, `MANIFEST.sha256`, `MANIFEST.sha256.ots` | Timeline, attribution, hashes, OpenTimestamps proof (Bitcoin-anchored) | `ots verify MANIFEST.sha256.ots` |
+| `PROVENANCE.md`, `MANIFEST.sha256` (+ `.ots`), `MANIFEST.release1.sha256` (+ `.ots`) | Timeline, attribution, hashes and OpenTimestamps proofs: release1 = the first push (17:10Z), the current manifest adds NOTE.md | `ots verify -f MANIFEST.release1.sha256 MANIFEST.release1.sha256.ots`; `ots verify MANIFEST.sha256.ots` |
 
 ## The argument in one paragraph
 
