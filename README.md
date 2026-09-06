@@ -20,7 +20,10 @@ derivation. We publish this package because:
 1. it is an **independent replication** of the part of claim #78 covering r = 5, 6, 11 — the
    same obstruction traces and the same 253-set family on 27 points appear in Thiim's paper;
 2. we **built Thiim's Lean package from source** on our machine (1,064 targets, exit 0) and
-   reproduced its axiom audit — to our knowledge the first external build of that formalization;
+   reproduced its axiom audit. This is not the first external build: `coffeewithcolin` reported the
+   same result on the claim #78 comment thread on 21 July 2026 — same tag, same commit, 1,064 jobs,
+   no `sorry`, and the same axiom allowlist. Ours is an independent second confirmation on
+   different hardware, seven weeks later;
 3. our three cases are **compiled in Lean 4 as corollaries** of its endpoint theorem, with the
    exact boundary values added via explicit witnesses and a proved soundness lemma.
 
